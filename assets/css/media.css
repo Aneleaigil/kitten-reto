@@ -8,12 +8,13 @@
     background-image: url(../imagenes/sunny-day.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 40em;
   }
+
 .kit{
     content: url(../imagenes/kitten-medium.png);
-
   }
-
+}
 @media (min-width: 220px) and (max-width: 534px) {
 	[class*='col-']{
 		width: 100%;
@@ -22,7 +23,9 @@
     background-image: url(../imagenes/night.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+     height: 40em;
   }
 .kit{
     content: url(../imagenes/kitten-small.png);
   }
+}
