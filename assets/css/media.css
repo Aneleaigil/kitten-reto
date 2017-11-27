@@ -1,0 +1,28 @@
+@media(min-width: 535px) and (max-width: 824px){ /*// se define minimo de ancho de pantalla y maximo de ancho de pantalla */
+[class*='col-']{ /*yo quiero que tome todas las col y que se le aplique el estilo del 100% del ancho del contenido que estan en ellas*/
+		width: 100%;
+		
+   }
+   
+.fondo{
+    background-image: url(../imagenes/sunny-day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.kit{
+    content: url(../imagenes/kitten-medium.png);
+
+  }
+
+@media (min-width: 220px) and (max-width: 534px) {
+	[class*='col-']{
+		width: 100%;
+  }
+.fondo{
+    background-image: url(../imagenes/night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.kit{
+    content: url(../imagenes/kitten-small.png);
+  }

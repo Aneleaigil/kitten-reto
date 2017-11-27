@@ -1,0 +1,15 @@
+
+*{
+	margin:0 auto;
+	padding: 0 auto;
+}
+.fondo{
+background-image: url("../imagenes/dawn.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.kit{
+	margin-left: 20%;
+	padding-top: 40%;
+}
